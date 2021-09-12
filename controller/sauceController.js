@@ -102,7 +102,7 @@ exports.deleteSauce = (req, res, next) => {
             }))
             res.status(200).json({ message: "sauce deleted successfully" })
         }).catch((err) => {
-            res.status(500).json({ message: "error deleting sauce" })
+            res.status(500).json({ message: err.message  })
         })
     }).catch((err) => {
         res.status(500).json({ message: err.message })
