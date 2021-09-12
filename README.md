@@ -1,5 +1,7 @@
 #Project 6#
 
+This project can be found at https://github.com/Slawernos/P6
+
 Please clone the following project and use npm install to download required elements and to run the server use: 
 
     "npm run startserver"
